@@ -23,7 +23,7 @@ figure; plot(w, abs(Y(1:N))); %График спектра зашумленно�
 end
 
 function x = f_1(t)
-   x = 3/2 * sin(t) / (2 + sin(t)) + 1/2
+   x = (3/2) * sin(t) ./ (2 + sin(t)) + 1/2
 end
 
 function x = f_2(t)
